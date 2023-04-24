@@ -1,11 +1,17 @@
-# mc_drift
+# mcdrift
 
 This repository contains a Python implementation of the P-CDM and NP-CDM algorithms introduced in the paper Learning Discrete Time Markov Chains
 under Concept Drift by Roveri (2019). The link to the paper is https://re.public.polimi.it/bitstream/11311/1113395/1/FINAL%20VERSION.pdf.
 
 ## Directory
 
-TODO
+- The file [mcdrift.py](https://github.com/k-wib/mc_drift/blob/main/mcdrift.py) contains the implementation of P-CDM and NP-CDM, as well as some helpful intermediate functions.
+- The notebook [toy_example.ipynb](https://github.com/k-wib/mc_drift/blob/main/toy_example.ipynb) shows how to run P-CDM and NP-CDM on a toy dataset.
+- The notebook [Experiments/experiment1.ipynb](https://github.com/k-wib/mc_drift/blob/main/Experiments/experiment1.ipynb) contains the code to reproduce Section 3.1 in the report.
+- The notebook [Experiments/experiment2.ipynb](https://github.com/k-wib/mc_drift/blob/main/Experiments/experiment2.ipynb) contains the code to reproduce Section 3.2 in the report.
+- The notebook [Experiments/experiment3.ipynb](https://github.com/k-wib/mc_drift/blob/main/Experiments/experiment3.ipynb) contains the code to reproduce Section 3.3 in the report.
+- The notebook [Experiments/experiment4.ipynb](https://github.com/k-wib/mc_drift/blob/main/Experiments/experiment4.ipynb) contains the code to reproduce Section 3.4 in the report.
+
 
 ## Usage example
 
