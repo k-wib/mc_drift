@@ -26,6 +26,7 @@ seed = 2023
 
 # Parameters
 N = 3 # number of states
+pi = np.array([1/3, 1/3, 1/3]) # initial distribution
 p0 = np.array([[0.2, 0.3, 0.5], [0.1, 0.8, 0.1], [0.3, 0.4, 0.3]]) # initial transition matrix
 p1 = np.array([[0.8, 0.1, 0.1], [0.6, 0.2, 0.2], [0.4, 0.1, 0.5]]) # modified transition matrix
 T = 10000 # sequence length
@@ -33,7 +34,6 @@ tstar = 2000 # time when abrupt change occurs
 L = 1000 # number of observations guaranteed to come from p0
 K = 3 # detection threshold
 W = 5 # subsequence length
-pi = np.array([1/3, 1/3, 1/3]) # initial distribution
 
 # Generate a sequence of states
 np.random.seed(seed)
